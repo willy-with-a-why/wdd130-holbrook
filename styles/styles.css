@@ -11,10 +11,47 @@
 
 header {
     background-color: var(--primary-color);
+    height: 100%;
+}
+
+.logo-card{
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+    padding: 20px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: var(--accent2-color);
 }
 
 body {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 footer {
