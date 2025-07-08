@@ -1,0 +1,22 @@
+/* used to set general padding and margin to 0 before editing */
+* { padding: 0; margin: 0;}
+
+:root {
+    /* use these colors for your page */
+    --primary-color: #7FAAA3;
+    --secondary-color: #34454E;
+    --accent1-color: #C5E3DF;
+    --accent2-color: #F6F8F7;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+body {
+    background-color: var(--accent1-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
