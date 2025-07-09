@@ -56,4 +56,15 @@ body {
 
 footer {
     background-color: var(--secondary-color);
+    padding: 1.5em;
+}
+
+.grid {
+    padding: 1.5em;
+}
+
+.socials img {
+    width: 30px;
+    margin: 0 10px;
+    float: left;
 }
