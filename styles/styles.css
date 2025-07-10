@@ -9,6 +9,7 @@
     --accent2-color: #F6F8F7;
 }
 
+/* Styles for header of all pages */
 header {
     background-color: var(--primary-color);
     height: 100%;
@@ -50,10 +51,12 @@ nav a:hover{
     color: var(--accent2-color);
 }
 
+/* Body for home page */
 body {
     background-color: var(--accent2-color);
 }
 
+/* Footer for  all pages */
 footer {
     background-color: var(--secondary-color);
 }
