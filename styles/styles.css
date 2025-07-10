@@ -128,8 +128,8 @@ footer {
 }
 
 .topic img {
-  width: 150px;
-  height: 150px;
+  width: 20em;
+  height: 20em;
   border-radius: 6px;
   object-fit: cover;
   margin-bottom: 0.5rem;
