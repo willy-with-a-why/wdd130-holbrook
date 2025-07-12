@@ -11,7 +11,7 @@
 
 /* Styles for header of all pages */
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     height: 100%;
 }
 
@@ -30,6 +30,7 @@ header {
     display: inline-block;
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--accent2-color);
 }
 
 nav {
@@ -42,13 +43,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: var(--accent2-color);
     font-size: 1.5em;
     padding: 10px;
 }
 
 nav a:hover{
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 /* Body for home page */
